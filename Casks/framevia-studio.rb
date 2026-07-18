@@ -5,7 +5,7 @@ cask "framevia-studio" do
   url "https://github.com/JoyTruepath/framevia-studio-releases/releases/download/v#{version}/Framevia-Studio-#{version}.dmg",
       verified: "github.com/JoyTruepath/framevia-studio-releases/"
   name "Framevia Studio"
-  desc "Native macOS 2D frame-by-frame animation and drawing app"
+  desc "2D frame-by-frame animation and drawing app"
   homepage "https://joytruepath.com/framevia-studio"
 
   livecheck do

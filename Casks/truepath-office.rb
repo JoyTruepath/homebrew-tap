@@ -5,7 +5,7 @@ cask "truepath-office" do
   url "https://github.com/JoyTruepath/truepath-office-releases/releases/download/v#{version}/TruePath-Office-#{version}.dmg",
       verified: "github.com/JoyTruepath/truepath-office-releases/"
   name "TruePath Office"
-  desc "Native macOS office suite for Word, Excel, PowerPoint and PDF files"
+  desc "Office suite for Word, Excel, PowerPoint and PDF files"
   homepage "https://joytruepath.com/truepath-office"
 
   livecheck do

@@ -5,7 +5,7 @@ cask "truepath-recorder" do
   url "https://github.com/JoyTruepath/truepath-recorder-releases/releases/download/v#{version}/TruePath-Recorder-#{version}.dmg",
       verified: "github.com/JoyTruepath/truepath-recorder-releases/"
   name "TruePath Recorder"
-  desc "Native macOS screen and audio recorder"
+  desc "Screen and audio recorder"
   homepage "https://joytruepath.com/recorder"
 
   livecheck do

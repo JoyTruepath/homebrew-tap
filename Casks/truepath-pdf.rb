@@ -5,7 +5,7 @@ cask "truepath-pdf" do
   url "https://github.com/JoyTruepath/truepath-pdf-releases/releases/download/v#{version}/TruePath-PDF-#{version}.dmg",
       verified: "github.com/JoyTruepath/truepath-pdf-releases/"
   name "TruePath PDF"
-  desc "Native macOS PDF editor, viewer and converter"
+  desc "PDF editor, viewer and converter"
   homepage "https://joytruepath.com/truepath-pdf"
 
   livecheck do
