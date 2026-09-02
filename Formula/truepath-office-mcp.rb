@@ -1,9 +1,8 @@
 class TruepathOfficeMcp < Formula
-  desc "TruePath Office document engine — `truepath` CLI + MCP server for Word/Excel/PowerPoint/PDF"
+  desc "CLI and MCP server for Word, Excel, PowerPoint and PDF documents"
   homepage "https://joytruepath.com/truepath-office"
   url "https://github.com/JoyTruepath/truepath-office-mcp-releases/releases/download/v0.2.0/truepath-office-mcp-0.2.0-macos-universal.tar.gz"
   sha256 "5ebcfdb72bc7b7ac606bf204bdfeff7b79499f2b40e0db5b8a5c144df402b0cf"
-  version "0.2.0"
   license :cannot_represent
 
   depends_on macos: :ventura
