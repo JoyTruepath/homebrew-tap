@@ -1,18 +1,16 @@
 class TruepathOfficeMcp < Formula
   desc "TruePath Office document engine — `truepath` CLI + MCP server for Word/Excel/PowerPoint/PDF"
-  homepage "https://github.com/JoyTruepath/truepath-office-mcp"
-  url "https://github.com/JoyTruepath/truepath-office-mcp/archive/refs/tags/v0.2.0.tar.gz"
-  sha256 "408905adcae3c558e959a05bb3b9723482e57d8852d3a9a3cf8561fb670dd067"
-  license "MIT"
+  homepage "https://joytruepath.com/truepath-office"
+  url "https://github.com/JoyTruepath/truepath-office-mcp-releases/releases/download/v0.2.0/truepath-office-mcp-0.2.0-macos-universal.tar.gz"
+  sha256 "5ebcfdb72bc7b7ac606bf204bdfeff7b79499f2b40e0db5b8a5c144df402b0cf"
+  version "0.2.0"
+  license :cannot_represent
 
-  depends_on xcode: ["15.0", :build]
   depends_on macos: :ventura
 
   def install
-    # The repo's root Package.swift builds both products.
-    system "swift", "build", "-c", "release", "--disable-sandbox"
-    bin.install ".build/release/truepath"
-    bin.install ".build/release/truepath-office-mcp"
+    bin.install "truepath"
+    bin.install "truepath-office-mcp"
   end
 
   test do
