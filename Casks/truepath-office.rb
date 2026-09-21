@@ -1,6 +1,6 @@
 cask "truepath-office" do
-  version "1.0.9"
-  sha256 "bd212383a88aa37d10c4dd80b705932fe32325623fa615fc2489aeebcfca70ee"
+  version "1.0.21"
+  sha256 "2a4c89a98ab920e1aaea49e436732a92263726d8c0e29be90a1dd5a6741dff5d"
 
   url "https://github.com/JoyTruepath/truepath-office-releases/releases/download/v#{version}/TruePath-Office-#{version}.dmg",
       verified: "github.com/JoyTruepath/truepath-office-releases/"
@@ -13,7 +13,7 @@ cask "truepath-office" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: ">= :ventura"
 
   app "TruePath Office.app"
 
