@@ -1,6 +1,6 @@
 cask "truepath-office" do
-  version "1.0.24"
-  sha256 "f16665f6dbd78d7cb84cd6bb91911c7966ac22a74506fc1d50ade918be975a3c"
+  version "1.0.28"
+  sha256 "89bdc931544f6cf230900ba1669499390e4c83e4a69ed570771226e9aaf7cf28"
 
   url "https://github.com/JoyTruepath/truepath-office-releases/releases/download/v#{version}/TruePath-Office-#{version}.dmg",
       verified: "github.com/JoyTruepath/truepath-office-releases/"
